@@ -1,6 +1,6 @@
 {
   "name": "@Suyama-Daichi/fouresquare-types",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "types of foursquare",
   "main": "dist/index.js",
   "scripts": {
