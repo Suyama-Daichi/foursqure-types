@@ -1,5 +1,5 @@
 {
-  "name": "fouresquare-types",
+  "name": "@Suyama-Daichi/fouresquare-types",
   "version": "0.0.1",
   "description": "types of foursquare",
   "main": "dist/index.js",
