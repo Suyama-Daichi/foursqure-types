@@ -1,0 +1,34 @@
+{
+  "name": "@suyama-daich/firesquare-types",
+  "version": "0.0.10",
+  "description": "types of foursquare",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "rimraf dist",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suyama-Daichi/foursqure-types.git"
+  },
+  "author": "suyama-daichi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suyama-Daichi/foursqure-types/issues"
+  },
+  "homepage": "https://github.com/Suyama-Daichi/foursqure-types#readme",
+  "devDependencies": {
+    "@types/validator": "^13.7.3",
+    "prettier": "^2.7.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Suyama-Daichi"
+  }
+}
